@@ -34,7 +34,7 @@
 
         meh {
             bindings = <
-&none          &kp RS(RA(RC(Q)))  &kp RS(RA(W))      &kp UP_ARROW       &kp RS(RA(RC(P)))  &kp RS(RA(RC(B)))                                               &kp LA(LC(LS(J)))  &kp LS(LA(LC(L)))  &kp LS(LA(LC(U)))      &kp LS(LA(LC(Y)))    &kp LS(LA(LC(SEMICOLON)))  &none
+&none          &kp RS(RA(RC(Q)))  &kp RS(RA(RC(W)))  &kp UP_ARROW       &kp RS(RA(RC(P)))  &kp RS(RA(RC(B)))                                               &kp LA(LC(LS(J)))  &kp LS(LA(LC(L)))  &kp LS(LA(LC(U)))      &kp LS(LA(LC(Y)))    &kp LS(LA(LC(SEMICOLON)))  &none
 &kp BACKSPACE  &kp RS(RA(RC(A)))  &kp LEFT           &kp DOWN           &kp RIGHT          &kp RS(RA(RC(G)))                                               &kp LS(LA(LC(M)))  &kp RS(RA(RC(N)))  &kp LS(LA(LC(E)))      &kp LS(LA(LC(I)))    &kp LS(LA(LC(O)))          &kp SINGLE_QUOTE
 &kp UNDER      &kp RA(RC(RS(Z)))  &kp RA(RS(RC(X)))  &kp RS(RA(RC(C)))  &kp RS(RA(RC(D)))  &kp RS(RA(RC(V)))  &none                     &none              &kp LS(LA(LC(K)))  &kp LS(LA(LC(H)))  &kp LS(LA(LC(COMMA)))  &kp LS(LA(LC(DOT)))  &kp LS(LA(LC(SLASH)))      &kp EQUAL
                                                                         &trans             &trans             &trans  &trans    &trans  &kp LA(BACKSPACE)  &trans             &trans
