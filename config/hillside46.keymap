@@ -16,9 +16,9 @@
 
         def {
             bindings = <
-&trans         &kp Q  &kp W  &kp F  &kp P      &kp B                                                                                   &kp J        &kp L              &kp U      &kp Y    &kp SEMICOLON  &none
-&mt LEFT_SHIFT MINUS  &kp A  &kp R  &kp S  &kp T      &kp G                                                                                   &kp M        &kp N              &kp E      &kp I    &kp O          &kp SINGLE_QUOTE
-&kp UNDER      &kp Z  &kp X  &kp C  &kp D      &kp V        &none                                                &none                 &kp K        &kp H              &kp COMMA  &kp DOT  &kp SLASH      &kp EQUAL
+&kp LEFT_SHIFT &kp Q  &kp W  &kp F  &kp P      &kp B                                                                                   &kp J        &kp L              &kp U      &kp Y    &kp SEMICOLON  &none
+&kp MINUS      &kp A  &kp R  &kp S  &kp T      &kp G                                                                                   &kp M        &kp N              &kp E      &kp I    &kp O          &kp SINGLE_QUOTE
+&kp UNDER      &kp Z  &kp X  &kp C  &kp D      &kp V        &kp LEFT_SHIFT                                       &none                 &kp K        &kp H              &kp COMMA  &kp DOT  &kp SLASH      &kp EQUAL
                                 &lt 3 ESC  &lt 2 SPACE  &mt LEFT_COMMAND RETURN  &kp LCTRL    &kp RIGHT_ALT  &mt RIGHT_SHIFT BSPC  &lt 1 SPACE  &mt RCTL TAB
             >;
         };
