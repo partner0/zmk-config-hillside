@@ -28,7 +28,7 @@
 &trans  &kp EXCL  &kp AT  &kp HASH  &kp DOLLAR  &kp PERCENT                                           &kp CARET  &kp AMPERSAND  &kp STAR  &kp LPAR  &kp RPAR  &trans
 &trans  &kp N1    &kp N2  &kp N3    &kp N4      &kp N5                                                &kp N6     &kp N7         &kp N8    &kp N9    &kp N0    &trans
 &trans  &kp N6    &kp N7  &kp N8    &kp N9      &kp N0       &trans                           &trans  &kp F6     &kp F7         &kp F8    &kp F9    &kp F10   &trans
-                                    &tog 0     &trans       &kp RA(ENTER)  &trans    &trans  &trans  &trans     &trans
+                                    &tog 1     &trans       &kp RA(ENTER)  &trans    &trans  &trans  &trans     &trans
             >;
         };
 
