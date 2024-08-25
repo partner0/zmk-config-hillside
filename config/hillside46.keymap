@@ -18,7 +18,7 @@
             bindings = <
 &kp LEFT_SHIFT &kp Q  &kp W  &kp F  &kp P      &kp B                                                                                   &kp J        &kp L              &kp U      &kp Y    &kp SEMICOLON  &none
 &kp MINUS      &kp A  &kp R  &kp S  &kp T      &kp G                                                                                   &kp M        &kp N              &kp E      &kp I    &kp O          &kp SINGLE_QUOTE
-&kp UNDER      &kp Z  &kp X  &kp C  &kp D      &kp V        &ltog 1                                              &none                 &kp K        &kp H              &kp COMMA  &kp DOT  &kp SLASH      &kp EQUAL
+&kp UNDER      &kp Z  &kp X  &kp C  &kp D      &kp V        &tog 1                                              &none                 &kp K        &kp H              &kp COMMA  &kp DOT  &kp SLASH      &kp EQUAL
                                 &lt 3 ESC  &lt 2 SPACE  &mt LEFT_COMMAND RETURN  &kp LCTRL    &kp RIGHT_ALT  &mt RIGHT_SHIFT BSPC  &lt 1 SPACE  &mt RCTL TAB
             >;
         };
@@ -28,7 +28,7 @@
 &trans  &kp EXCL  &kp AT  &kp HASH  &kp DOLLAR  &kp PERCENT                                           &kp CARET  &kp AMPERSAND  &kp STAR  &kp LPAR  &kp RPAR  &trans
 &trans  &kp N1    &kp N2  &kp N3    &kp N4      &kp N5                                                &kp N6     &kp N7         &kp N8    &kp N9    &kp N0    &trans
 &trans  &kp N6    &kp N7  &kp N8    &kp N9      &kp N0       &trans                           &trans  &kp F6     &kp F7         &kp F8    &kp F9    &kp F10   &trans
-                                    &ltog 0     &trans       &kp RA(ENTER)  &trans    &trans  &trans  &trans     &trans
+                                    &tog 0     &trans       &kp RA(ENTER)  &trans    &trans  &trans  &trans     &trans
             >;
         };
 
