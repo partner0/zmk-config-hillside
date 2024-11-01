@@ -7,7 +7,11 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
 
-&mt { flavor = "tap-preferred"; };
+&mt {
+    flavor = "tap-preferred";
+    require-prior-idle-ms = <150>;
+    quick-tap-ms = <200>;
+};
 
 / {
     keymap {
@@ -15,10 +19,10 @@
 
         def {
             bindings = <
-&mt LEFT_SHIFT EQUAL  &kp Q  &kp W  &kp F  &kp P      &kp B                                                                                         &kp J                  &kp L          &kp U      &kp Y    &kp SEMICOLON  &kp PLUS
-&kp MINUS             &kp A  &kp R  &kp S  &kp T      &kp G                                                                                         &kp M                  &kp N          &kp E      &kp I    &kp O          &kp SINGLE_QUOTE
-&kp UNDER             &kp Z  &kp X  &kp C  &kp D      &kp V        &kp LSHFT                                                            &kp RSHFT   &kp K                  &kp H          &kp COMMA  &kp DOT  &kp SLASH      &kp DQT
-                                           &lt 3 ESC  &lt 2 SPACE  &mt LEFT_COMMAND RETURN  &mt LCTRL ENTER    &mt RIGHT_ALT BACKSPACE  &lt 1 BSPC  &mt RIGHT_SHIFT SPACE  &mt RSHFT TAB
+&mt LEFT_SHIFT EQUAL  &kp Q  &kp W  &kp F  &kp P        &kp B                                                                                         &kp J                  &kp L          &kp U      &kp Y    &kp SEMICOLON  &kp PLUS
+&kp MINUS             &kp A  &kp R  &kp S  &mt T LSHFT  &kp G                                                                                         &kp M                  &mt N RSHFT    &kp E      &kp I    &kp O          &kp SINGLE_QUOTE
+&kp UNDER             &kp Z  &kp X  &kp C  &kp D        &kp V        &kp LSHFT                                                            &kp RSHFT   &kp K                  &kp H          &kp COMMA  &kp DOT  &kp SLASH      &kp DQT
+                                           &lt 3 ESC    &lt 2 SPACE  &mt LEFT_COMMAND RETURN  &mt LCTRL ENTER    &mt RIGHT_ALT BACKSPACE  &lt 1 BSPC  &mt RIGHT_SHIFT SPACE  &mt RSHFT TAB
             >;
         };
 
