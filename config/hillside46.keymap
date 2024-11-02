@@ -17,7 +17,6 @@
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
             tapping-term-ms = <200>;
-            quick-tap-ms = <0>;
             flavor = "tap-unless-interrupted";
             bindings = <&kp>, <&kp>;
         };
@@ -29,7 +28,7 @@
         def {
             bindings = <
 &mt LEFT_SHIFT EQUAL  &kp Q  &kp W  &kp F  &kp P        &kp B                                                                                         &kp J                  &kp L          &kp U      &kp Y    &kp SEMICOLON  &kp PLUS
-&kp MINUS             &kp A  &kp R  &kp S  &hm LSHFT T  &kp G                                                                                         &kp M                  &hm RSHFT N    &kp E      &kp I    &kp O          &kp SINGLE_QUOTE
+&kp MINUS             &kp A  &kp R  &kp S  &kp T  &kp G                                                                                               &kp M                  &kp N          &kp E      &kp I    &kp O          &kp SINGLE_QUOTE
 &kp UNDER             &kp Z  &kp X  &kp C  &kp D        &kp V        &kp LSHFT                                                            &kp RSHFT   &kp K                  &kp H          &kp COMMA  &kp DOT  &kp SLASH      &kp DQT
                                            &lt 3 ESC    &lt 2 SPACE  &mt LEFT_COMMAND RETURN  &mt LCTRL ENTER    &mt RIGHT_ALT BACKSPACE  &lt 1 BSPC  &mt RIGHT_SHIFT SPACE  &mt RSHFT TAB
             >;
