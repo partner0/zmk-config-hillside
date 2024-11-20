@@ -7,6 +7,9 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
 
+CONFIG_ZMK_KSCAN_DEBOUNCE_PRESS_MS=50
+CONFIG_ZMK_KSCAN_DEBOUNCE_RELEASE_MS=50
+
 &mt {
     flavor = "tap-preferred";
 };
