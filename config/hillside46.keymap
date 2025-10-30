@@ -39,7 +39,7 @@
 &kp K_VOL_UP  &kp EXCL  &kp AT  &kp HASH  &kp DOLLAR  &kp PERCENT                                           &kp CARET  &kp AMPERSAND  &kp STAR  &kp LPAR  &kp RPAR  &kp C_NEXT
 &kp K_VOL_DN  &kp N1    &kp N2  &kp N3    &kp N4      &kp N5                                                &kp N6     &kp N7         &kp N8    &kp N9    &kp N0    &kp C_PREV
 &kp C_PP      &kp N6    &kp N7  &kp N8    &kp N9      &kp N0       &trans                           &trans  &kp F6     &kp F7         &kp F8    &kp F9    &kp F10   &kp F11
-                                          &tog 1      &RA(ENTER)   &kp RC(ENTER)  &trans    &trans  &trans  &trans     &trans
+                                          &tog 1      &trans       &kp RC(ENTER)  &trans    &trans  &trans  &trans     &trans
             >;
         };
 
