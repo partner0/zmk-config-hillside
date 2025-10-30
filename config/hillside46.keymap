@@ -29,7 +29,7 @@
             bindings = <
 &mt LEFT_SHIFT EQUAL  &kp Q  &kp W  &kp F  &kp P        &kp B                                                                                         &kp J                  &kp L          &kp U      &kp Y    &kp SEMICOLON  &kp PLUS
 &kp MINUS             &kp A  &kp R  &kp S  &kp T        &kp G                                                                                         &kp M                  &kp N          &kp E      &kp I    &kp O          &kp SINGLE_QUOTE
-&kp UNDER             &kp Z  &kp X  &kp C  &kp D        &kp V        &kp LSHFT                                                            &kp RSHFT   &kp K                  &kp H          &kp COMMA  &kp DOT  &kp SLASH      &kp DQT
+&kp UNDER             &kp Z  &kp X  &kp C  &kp D        &kp V        &kp LEFT_ALT                                                         &kp RSHFT   &kp K                  &kp H          &kp COMMA  &kp DOT  &kp SLASH      &kp DQT
                                            &lt 3 ESC    &lt 2 SPACE  &mt LEFT_COMMAND RETURN  &mt LCTRL ENTER    &mt RIGHT_ALT BACKSPACE  &lt 1 BSPC  &mt RIGHT_SHIFT SPACE  &mt RSHFT TAB
             >;
         };
@@ -45,19 +45,19 @@
 
         meh {
             bindings = <
-&none          &kp RS(RA(RC(Q)))  &kp RS(RA(RC(W)))  &kp UP_ARROW       &kp RS(RA(RC(P)))  &kp RS(RA(RC(B)))                                               &kp LA(LC(LS(J)))  &kp LS(LA(LC(L)))  &kp LS(LA(LC(U)))      &kp LS(LA(LC(Y)))    &kp LS(LA(LC(SEMICOLON)))  &none
-&kp BACKSPACE  &kp RS(RA(RC(A)))  &kp LEFT           &kp DOWN           &kp RIGHT          &kp RS(RA(RC(G)))                                               &kp LS(LA(LC(M)))  &kp RS(RA(RC(N)))  &kp LS(LA(LC(E)))      &kp LS(LA(LC(I)))    &kp LS(LA(LC(O)))          &kp SINGLE_QUOTE
-&kp UNDER      &kp RA(RC(RS(Z)))  &kp RA(RS(RC(X)))  &kp RS(RA(RC(C)))  &kp RS(RA(RC(D)))  &kp RS(RA(RC(V)))  &none                     &none              &kp LS(LA(LC(K)))  &kp LS(LA(LC(H)))  &kp LS(LA(LC(COMMA)))  &kp LS(LA(LC(DOT)))  &kp LS(LA(LC(SLASH)))      &kp EQUAL
+&none          &kp RS(RA(RC(Q)))  &kp RS(RA(RC(W)))  &kp UP_ARROW       &kp RS(RA(RC(P)))  &kp RS(RA(RC(B)))                                               &kp LS(LA(LC(J)))  &kp LS(LA(LC(L)))  &kp LS(LA(LC(U)))      &kp LS(LA(LC(Y)))    &kp LS(LA(LC(SEMICOLON)))  &none
+&kp BACKSPACE  &kp RS(RA(RC(A)))  &kp LEFT           &kp DOWN           &kp RIGHT          &kp RS(RA(RC(G)))                                               &kp LS(LA(LC(M)))  &kp LS(LA(LC(N)))  &kp LS(LA(LC(E)))      &kp LS(LA(LC(I)))    &kp LS(LA(LC(O)))          &kp SINGLE_QUOTE
+&kp UNDER      &kp RS(RC(RA(Z)))  &kp RA(RS(RC(X)))  &kp RS(RA(RC(C)))  &kp RS(RA(RC(D)))  &kp RS(RA(RC(V)))  &none                     &none              &kp LS(LA(LC(K)))  &kp LS(LA(LC(H)))  &kp LS(LA(LC(COMMA)))  &kp LS(LA(LC(DOT)))  &kp LS(LA(LC(SLASH)))      &kp EQUAL
                                                                         &trans             &trans             &trans  &trans    &trans  &kp LA(BACKSPACE)  &trans             &trans
             >;
         };
 
         sym {
             bindings = <
-&trans  &kp TILDE  &kp HOME       &kp RS(UP_ARROW)  &kp END        &kp PIPE                                             &kp LBKT  &kp RBKT  &kp PLUS   &trans  &trans  &trans
-&trans  &kp GRAVE  &kp RS(LEFT)   &kp RS(DOWN)      &kp RS(RIGHT)  &kp BSLH                                             &kp LPAR  &kp RPAR  &kp EQUAL  &trans  &trans  &trans
-&trans  &trans     &kp RS(RG(X))  &trans            &trans         &kp RS(RA(RG(V)))  &trans                    &trans  &kp LBRC  &kp RBRC  &trans     &trans  &trans  &trans
-                                                    &trans         &trans             &trans  &trans    &trans  &trans  &trans    &trans
+&trans  &kp TILDE  &kp HOME       &kp RS(UP_ARROW)  &kp END          &kp PIPE                                             &kp LBKT  &kp RBKT  &kp PLUS   &trans  &trans  &trans
+&trans  &kp GRAVE  &kp RS(LEFT)   &kp RS(DOWN)      &kp RS(RIGHT)    &kp BSLH                                             &kp LPAR  &kp RPAR  &kp EQUAL  &trans  &trans  &trans
+&trans  &trans     &kp RS(RG(X))  &trans            RS(RA(RG(LEFT))) &kp RS(RA(RG(RIGHT)))  &trans                    &trans  &kp LBRC  &kp RBRC  &trans     &trans  &trans  &trans
+                                                    &trans           &trans             &trans  &trans    &trans  &trans  &trans    &trans
             >;
         };
     };
