@@ -56,7 +56,7 @@
             bindings = <
 &trans  &kp TILDE  &kp HOME       &kp RS(UP_ARROW)  &kp END          &kp PIPE                                             &kp LBKT  &kp RBKT  &kp PLUS   &trans  &trans  &trans
 &trans  &kp GRAVE  &kp RS(LEFT)   &kp RS(DOWN)      &kp RS(RIGHT)    &kp BSLH                                             &kp LPAR  &kp RPAR  &kp EQUAL  &trans  &trans  &trans
-&trans  &trans     &kp RS(RG(X))  &trans            RS(RA(RG(LEFT))) &kp RS(RA(RG(RIGHT)))  &trans                    &trans  &kp LBRC  &kp RBRC  &trans     &trans  &trans  &trans
+&trans  &trans     &kp RS(RG(X))  &trans            &kp RS(RA(RG(LEFT))) &kp RS(RA(RG(RIGHT)))  &trans                    &trans  &kp LBRC  &kp RBRC  &trans     &trans  &trans  &trans
                                                     &trans           &trans             &trans  &trans    &trans  &trans  &trans    &trans
             >;
         };
