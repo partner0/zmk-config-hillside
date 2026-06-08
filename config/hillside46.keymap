@@ -7,9 +7,7 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
 
-&mt {
-    flavor = "tap-preferred";
-};
+&mt { flavor = "tap-preferred"; };
 
 / {
     behaviors {
@@ -27,10 +25,10 @@
 
         def {
             bindings = <
-&mt LEFT_SHIFT EQUAL  &kp Q  &kp W  &kp F  &kp P        &kp B                                                                                         &kp J                  &kp L          &kp U      &kp Y    &kp SEMICOLON  &kp PLUS
-&kp MINUS             &kp A  &kp R  &kp S  &kp T        &kp G                                                                                         &kp M                  &kp N          &kp E      &kp I    &kp O          &kp SINGLE_QUOTE
-&kp UNDER             &kp Z  &kp X  &kp C  &kp D        &kp V        &kp LEFT_ALT                                                             &kp RSHFT   &kp K                  &kp H          &kp COMMA  &kp DOT  &kp SLASH      &kp DQT
-                                           &lt 3 ESC    &lt 2 SPACE  &mt LEFT_COMMAND RETURN  &mt LCTRL ENTER    &mt RIGHT_ALT BACKSPACE  &lt 1 BSPC  &mt RIGHT_SHIFT SPACE  &mt RSHFT TAB
+&mt LEFT_SHIFT EQUAL  &kp Q  &kp W  &kp F  &kp P      &kp B                                                                                           &kp J                  &kp L          &kp U      &kp Y    &kp SEMICOLON  &kp PLUS
+&kp MINUS             &kp A  &kp R  &kp S  &kp T      &kp G                                                                                           &kp M                  &kp N          &kp E      &kp I    &kp O          &kp SINGLE_QUOTE
+&kp UNDER             &kp Z  &kp X  &kp C  &kp D      &kp V        &kp LC(LEFT_ALT)                                                     &kp RC(RALT)  &kp K                  &kp H          &kp COMMA  &kp DOT  &kp SLASH      &kp DQT
+                                           &lt 3 ESC  &lt 2 SPACE  &mt LEFT_COMMAND RETURN  &mt LCTRL ENTER    &mt RIGHT_ALT BACKSPACE  &lt 1 BSPC    &mt RIGHT_SHIFT SPACE  &mt RSHFT TAB
             >;
         };
 
@@ -54,10 +52,10 @@
 
         sym {
             bindings = <
-&trans  &kp TILDE  &kp HOME       &kp RS(UP_ARROW)  &kp END          &kp PIPE                                             &kp LBKT  &kp RBKT  &kp PLUS   &trans  &trans  &trans
-&trans  &kp GRAVE  &kp RS(LEFT)   &kp RS(DOWN)      &kp RS(RIGHT)    &kp BSLH                                             &kp LPAR  &kp RPAR  &kp EQUAL  &trans  &trans  &trans
-&trans  &trans     &kp RS(RG(X))  &trans            &kp RS(RA(RG(LEFT))) &kp RS(RA(RG(RIGHT)))  &trans                    &trans  &kp LBRC  &kp RBRC  &trans     &trans  &trans  &trans
-                                                    &trans           &trans             &trans  &trans    &trans  &trans  &trans    &trans
+&trans  &kp TILDE  &kp HOME       &kp RS(UP_ARROW)  &kp END               &kp PIPE                                                 &kp LBKT  &kp RBKT  &kp PLUS   &trans  &trans  &trans
+&trans  &kp GRAVE  &kp RS(LEFT)   &kp RS(DOWN)      &kp RS(RIGHT)         &kp BSLH                                                 &kp LPAR  &kp RPAR  &kp EQUAL  &trans  &trans  &trans
+&trans  &trans     &kp RS(RG(X))  &trans            &kp RS(RA(RG(LEFT)))  &kp RS(RA(RG(RIGHT)))  &trans                    &trans  &kp LBRC  &kp RBRC  &trans     &trans  &trans  &trans
+                                                    &trans                &trans                 &trans  &trans    &trans  &trans  &trans    &trans
             >;
         };
     };
