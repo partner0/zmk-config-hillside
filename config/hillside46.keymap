@@ -25,10 +25,10 @@
 
         def {
             bindings = <
-&mt LEFT_SHIFT EQUAL  &kp Q  &kp W        &kp F       &kp P        &kp B                                                                                           &kp J                  &kp L          &kp U       &kp Y        &kp SEMICOLON  &kp PLUS
-&kp MINUS             &kp A  &mt LCTRL R  &mt LCMD S  &mt LSHFT T  &kp G                                                                                           &kp M                  &mt RSHFT N    &mt RCMD E  &mt RCTRL I  &kp O          &kp SINGLE_QUOTE
-&kp UNDER             &kp Z  &kp X        &kp C       &kp D        &kp V        &kp LC(LEFT_ALT)                                                     &kp RC(RALT)  &kp K                  &kp H          &kp COMMA   &kp DOT      &kp SLASH      &kp DQT
-                                                      &lt 3 ESC    &lt 2 SPACE  &mt LEFT_COMMAND RETURN  &mt LCTRL ENTER    &mt RIGHT_ALT BACKSPACE  &lt 1 BSPC    &mt RIGHT_SHIFT SPACE  &mt RSHFT TAB
+&mt LEFT_SHIFT EQUAL  &kp Q  &kp W  &kp F  &kp P      &kp B                                                                                           &kp J                  &kp L          &kp U      &kp Y    &kp SEMICOLON  &mt RSHFT PLUS
+&mt LCTRL MINUS       &kp A  &kp R  &kp S  &kp T      &kp G                                                                                           &kp M                  &kp N          &kp E      &kp I    &kp O          &mt RCTRL SINGLE_QUOTE
+&mt LCMD UNDER        &kp Z  &kp X  &kp C  &kp D      &kp V        &kp LC(LEFT_ALT)                                                     &kp RC(RALT)  &kp K                  &kp H          &kp COMMA  &kp DOT  &kp SLASH      &mt RCMD DQT
+                                           &lt 3 ESC  &lt 2 SPACE  &mt LEFT_COMMAND RETURN  &mt LCTRL ENTER    &mt RIGHT_ALT BACKSPACE  &lt 1 BSPC    &mt RIGHT_SHIFT SPACE  &mt RSHFT TAB
             >;
         };
 
