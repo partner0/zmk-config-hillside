@@ -6,6 +6,7 @@
 
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/bt.h>
 
 &mt { flavor = "tap-preferred"; };
 
@@ -52,8 +53,8 @@
 
         sym {
             bindings = <
-&trans  &kp TILDE  &kp HOME       &kp RS(UP_ARROW)  &kp END               &kp PIPE                                                 &kp LBKT  &kp RBKT  &kp PLUS   &trans  &trans  &trans
-&trans  &kp GRAVE  &kp RS(LEFT)   &kp RS(DOWN)      &kp RS(RIGHT)         &kp BSLH                                                 &kp LPAR  &kp RPAR  &kp EQUAL  &trans  &trans  &trans
+&trans  &kp TILDE  &kp HOME       &kp RS(UP_ARROW)  &kp END               &kp PIPE                                                 &kp LBKT  &kp RBKT  &kp PLUS   &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2
+&trans  &kp GRAVE  &kp RS(LEFT)   &kp RS(DOWN)      &kp RS(RIGHT)         &kp BSLH                                                 &kp LPAR  &kp RPAR  &kp EQUAL  &bt BT_SEL 3  &bt BT_SEL 4  &bt BT_CLR
 &trans  &trans     &kp RS(RG(X))  &trans            &kp RS(RA(RG(LEFT)))  &kp RS(RA(RG(RIGHT)))  &trans                    &trans  &kp LBRC  &kp RBRC  &trans     &trans  &trans  &trans
                                                     &trans                &trans                 &trans  &trans    &trans  &trans  &trans    &trans
             >;
